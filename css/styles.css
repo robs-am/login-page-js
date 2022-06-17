@@ -11,25 +11,33 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(180deg, #FFFFFF -7.17%, rgba(251, 251, 253, 0.974843) 43.3%, rgba(124, 119, 189, 0.2) 112.46%, rgba(124, 119, 189, 0.4) 113.28%);
-    border-radius: 40px;
+    height: 100vh;
+    
+
 
 }
 
 .container {
-    height: 100vh;
+
     display: flex;
     align-items: center;
-    justify-content: space-around;
     flex-direction: column;
-
-
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-around;
+    background: linear-gradient(180deg, #FFFFFF -7.17%, rgba(251, 251, 253, 0.974843) 43.3%, rgba(124, 119, 189, 0.2) 112.46%, rgba(124, 119, 189, 0.4) 113.28%);
+    border-radius: 40px;
 }
 
-.buttons ,.login-welcome ,.signup-welcome{
+
+.buttons,
+.login-welcome,
+.signup-welcome {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-block: 0.5rem;
     border: none;
+    padding:0.5rem;
+    
+   
 }
