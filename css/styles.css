@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 
 }
 
@@ -12,7 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    
+
 
 
 }
@@ -29,6 +30,15 @@ body {
     border-radius: 40px;
 }
 
+.title {
+    font-size: 30px;
+    line-height: 37px;
+
+
+    letter-spacing: 0.08em;
+
+    color: #000000;
+}
 
 .buttons,
 .login-welcome,
@@ -37,8 +47,31 @@ body {
     align-items: center;
     flex-direction: column;
     border: none;
-    padding:0.5rem;
+    padding: 0.5rem;
     background-color: transparent;
-    
-   
+    cursor: pointer;
+
+
+}
+
+/* <!-- LOGIN FORM --> */
+
+.welcome-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.08em;
+
+    color: #000000;
+
+}
+
+.welcome-subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.08em;
+    padding-top: 0.3rem;
+
+    color: rgba(55, 71, 79, 0.8);
 }
