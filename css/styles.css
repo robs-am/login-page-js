@@ -7,6 +7,11 @@
 
 }
 
+a:link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
 body {
 
     display: flex;
@@ -51,7 +56,27 @@ body {
     background-color: transparent;
     cursor: pointer;
 
+}
 
+.loginWelcome {
+    /* login btn */
+    fill: #49448C;
+
+}
+
+.loginWelcome:hover {
+    fill: #827CCD;
+    
+}
+.signupWelcome {
+    fill: white;
+    stroke: #49448C;
+}
+
+.signupWelcome:hover {
+    fill: #49448C;
+    stroke: #FFFFFF;
+    
 }
 
 /* <!-- LOGIN FORM --> */
