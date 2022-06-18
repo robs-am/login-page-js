@@ -74,7 +74,7 @@ body {
 }
 
 .signupWelcome:hover {
-    fill: #49448C;
+    fill: #827CCD;
     stroke: #FFFFFF;
     
 }
@@ -109,6 +109,11 @@ input {
     background: rgba(73, 68, 140, 0.1);
     border-radius: 30px;
     border: none;
+
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
 
 }
 
