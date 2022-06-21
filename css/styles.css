@@ -17,7 +17,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     height: 100vh;
 
 
@@ -28,7 +28,7 @@ body {
 
     display: flex;
     align-items: center;
-    flex-direction: row;
+
     height: 100vh;
     width: 98vw;
     justify-content: space-around;
@@ -56,15 +56,27 @@ body {
     align-items: center;
     flex-direction: column;
     border: none;
-    padding: 0.5rem;
+    padding: 0.2rem;
     background-color: transparent;
     cursor: pointer;
 
 }
 
-.tittle h1 {
-    padding: 
-} 
+.welcomeScreen img,
+.helloTittle {
+    padding: 2rem;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+
+    letter-spacing: 0.08em;
+
+    color: #000000;
+}
 
 .loginWelcome {
     /* login btn */
@@ -102,7 +114,7 @@ body {
     font-size: 30px;
     line-height: 37px;
     letter-spacing: 0.08em;
-    
+
 
     color: #000000;
 
@@ -120,7 +132,7 @@ body {
 
 .login-email,
 input {
-    
+
     width: 320px;
     height: 48px;
     background: rgba(73, 68, 140, 0.1);
@@ -157,9 +169,10 @@ select:focus {
 
 
 .inputField input {
-    
+
     padding: 2px 35px;
-    margin-left: 1rem;;
+    margin-left: 1rem;
+    ;
 
 
 }
@@ -168,9 +181,9 @@ select:focus {
     margin-top: 0.3rem;
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     flex-direction: column;
-    align-content:center;
+    align-content: center;
 }
 
 .login-welcome {
