@@ -24,16 +24,29 @@ body {
 
 }
 
-.container {
+.containerHello {
 
     display: flex;
     align-items: center;
 
     height: 100vh;
-    width: 98vw;
+    width: 100vw;
     justify-content: space-around;
     background: linear-gradient(180deg, #FFFFFF -7.17%, rgba(251, 251, 253, 0.974843) 43.3%, rgba(124, 119, 189, 0.2) 112.46%, rgba(124, 119, 189, 0.4) 113.28%);
     border-radius: 40px;
+}
+
+.containerWelcome {
+
+    display: flex;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-around;
+    background: linear-gradient(180deg, #FFFFFF -7.17%, rgba(251, 251, 253, 0.974843) 43.3%, rgba(124, 119, 189, 0.2) 112.46%, rgba(124, 119, 189, 0.4) 113.28%);
+    border-radius: 40px;
+
 }
 
 .welcomeScreen {
@@ -62,14 +75,16 @@ body {
 
 }
 
-.welcomeScreen img,
+
+
 .helloTittle {
-    padding: 2rem;
+    
+    padding: 96px;
 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 34px;
     line-height: 37px;
     /* identical to box height */
 
@@ -92,6 +107,7 @@ body {
 .signupWelcome {
     fill: white;
     stroke: #49448C;
+    
 }
 
 .signupWelcome:hover {
@@ -100,7 +116,13 @@ body {
 
 }
 
+
+
 /* <!-- LOGIN FORM --> */
+
+.pwd {
+    padding-left: 0.3rem;
+}
 
 .welcomeTitle {
     display: flex;
@@ -125,11 +147,26 @@ body {
     font-size: 20px;
     line-height: 27px;
     letter-spacing: 0.08em;
-    padding-block: 0.3rem;
+    padding-block: 0.5rem;
 
     color: rgba(55, 71, 79, 0.8);
 }
 
+.signInscreen {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.welcomeForm {
+margin-block: 2.5rem;
+padding-block:
+}
+
+.login-password {
+    padding-bottom: 3.2rem;
+}
 .login-email,
 input {
 
@@ -159,7 +196,7 @@ select:focus {
 
 .fPassoword {
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 17px;
 
     color: rgba(0, 0, 0, 0.5);
@@ -171,21 +208,48 @@ select:focus {
 .inputField input {
 
     padding: 2px 35px;
-    margin-left: 1rem;
-    ;
+    
+    margin-block:0.5rem;
+    
 
 
 }
 
 .inputField {
-    margin-top: 0.3rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    align-content: center;
+    
+    
+    text-align:left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-block:1rem;
+
 }
+
+
 
 .login-welcome {
     padding-block: 1.6rem;
+}
+
+.socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.or {
+    margin-block: 4rem;
+}
+
+.icones {
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
 }
