@@ -17,6 +17,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
     height: 100vh;
 
 
@@ -27,7 +28,7 @@ body {
 
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     height: 100vh;
     width: 98vw;
     justify-content: space-around;
@@ -82,11 +83,19 @@ body {
 
 /* <!-- LOGIN FORM --> */
 
+.welcomeTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .welcome-title {
     font-weight: 600;
     font-size: 30px;
     line-height: 37px;
     letter-spacing: 0.08em;
+    
 
     color: #000000;
 
@@ -153,7 +162,7 @@ select:focus {
 .inputField {
     margin-top: 1rem;
     display: flex;
-    align-items: center;
+    align-items:flex-start;
     justify-content: center;
     flex-direction: column;
 }
