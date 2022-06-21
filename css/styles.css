@@ -36,10 +36,13 @@ body {
     border-radius: 40px;
 }
 
-.title {
+.welcomeScreen {
     font-size: 30px;
     line-height: 37px;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 
     letter-spacing: 0.08em;
 
@@ -58,6 +61,10 @@ body {
     cursor: pointer;
 
 }
+
+.tittle h1 {
+    padding: 
+} 
 
 .loginWelcome {
     /* login btn */
@@ -147,9 +154,6 @@ select:focus {
 }
 
 
-.form {
-    padding-block: rem;
-}
 
 
 .inputField input {
@@ -164,8 +168,8 @@ select:focus {
     margin-top: 0.3rem;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: row;
+    justify-content:space-between;
+    flex-direction: column;
     align-content:center;
 }
 
