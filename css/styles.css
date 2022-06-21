@@ -97,7 +97,7 @@ body {
     font-size: 20px;
     line-height: 27px;
     letter-spacing: 0.08em;
-    padding-top: 0.3rem;
+    padding-block: 0.3rem;
 
     color: rgba(55, 71, 79, 0.8);
 }
@@ -139,18 +139,19 @@ select:focus {
 
 
 .form {
-    margin-block: 4rem;
+    padding-block: 8rem;
 }
 
 
 .inputField input {
-    margin: 0.5rem;
+    
     padding: 2px 35px;
 
 
 }
 
 .inputField {
+    margin-top: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
