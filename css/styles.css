@@ -155,16 +155,18 @@ select:focus {
 .inputField input {
     
     padding: 2px 35px;
+    margin-left: 1rem;;
 
 
 }
 
 .inputField {
-    margin-top: 1rem;
+    margin-top: 0.3rem;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    align-content:center;
 }
 
 .login-welcome {
