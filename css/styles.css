@@ -267,7 +267,8 @@ select:focus {
 
     height: 0.9rem;
     width: 0.9rem;
-    background-color: #cac7f3;
+    
+    filter:  Invert(100%) hue-rotate(210deg) brightness(1.7);
 
 
 }
