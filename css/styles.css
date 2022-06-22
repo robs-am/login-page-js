@@ -7,6 +7,14 @@
 
 }
 
+p {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+}
+
 a:link {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.5);
@@ -232,6 +240,18 @@ select:focus {
 
 .login-welcome {
     padding-block: 1.6rem;
+}
+
+.remember {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: #cac7f3;
+   
+
+}
+
+.rememberText {
+    text-align:right;
 }
 
 .socialMedia {
