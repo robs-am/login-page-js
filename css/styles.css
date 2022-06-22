@@ -45,11 +45,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: linear-gradient(180deg, #cdcccc22 -7.17%, rgba(251, 251, 253, 0.974843) 43.3%, rgba(124, 119, 189, 0.2) 112.46%, rgba(124, 119, 189, 0.4) 113.28%);
+    background: linear-gradient(180deg, #c1c1f407 -7.17%, rgba(251, 251, 253, 0.974843) 43.3%, rgba(124, 119, 189, 0.2) 112.46%, rgba(106, 97, 239, 0.269) 113.28%);
     border-radius: 40px;
     width: 428px;
     height: 926px;
-    border: 1px solid #cdcdcd13;
+    border: 1px solid #cdcdcd46;
 }
 
 
@@ -216,6 +216,7 @@ select:focus {
     padding: 2px 35px;
 
     margin-block: 0.5rem;
+    border: 1px solid #9d9d9f42;
 
 
 
