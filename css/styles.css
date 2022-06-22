@@ -45,7 +45,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: linear-gradient(180deg, #FFFFFF -7.17%, rgba(251, 251, 253, 0.974843) 43.3%, rgba(124, 119, 189, 0.2) 112.46%, rgba(124, 119, 189, 0.4) 113.28%);
+    background: linear-gradient(180deg, #cdcccc22 -7.17%, rgba(251, 251, 253, 0.974843) 43.3%, rgba(124, 119, 189, 0.2) 112.46%, rgba(124, 119, 189, 0.4) 113.28%);
     border-radius: 40px;
     width: 428px;
     height: 926px;
@@ -241,7 +241,7 @@ select:focus {
 
 .remember {
     
-   
+    justify-items: ;
     height: 0.9rem;
     width: 0.9rem;
     background-color: #cac7f3;
