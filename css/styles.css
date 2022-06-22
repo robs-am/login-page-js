@@ -4,15 +4,25 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    color: rgba(55, 71, 79, 0.8);
 
+
+}
+
+a {
+    color: #49448c;
+}
+
+a:hover {
+    color: #161257;
 }
 
 p {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
 }
 
 a:link {
@@ -26,43 +36,33 @@ body {
     align-items: center;
     justify-content: center;
 
-    height: 100vh;
-
 
 
 }
 
-.containerHello {
+.containerHello,
+.containerWelcome,
+.containerHi {
 
     display: flex;
     align-items: center;
-
-    height: 100vh;
-    width: 100vw;
     justify-content: space-around;
-    background: linear-gradient(180deg, #FFFFFF -7.17%, rgba(251, 251, 253, 0.974843) 43.3%, rgba(124, 119, 189, 0.2) 112.46%, rgba(124, 119, 189, 0.4) 113.28%);
-    border-radius: 40px;
+    background: linear-gradient(180deg, #c1c1f407 -7.17%, rgba(251, 251, 253, 0.974843) 43.3%, rgba(124, 119, 189, 0.2) 112.46%, rgba(106, 97, 239, 0.269) 113.28%);
+    border-radius: 30px;
+    width: 414px;
+    height: 928px;
+    border: 1px solid #cdcdcd46;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.containerWelcome {
 
-    display: flex;
-    align-items: center;
-
-    height: 100vh;
-    width: 100vw;
-    justify-content: space-around;
-    background: linear-gradient(180deg, #FFFFFF -7.17%, rgba(251, 251, 253, 0.974843) 43.3%, rgba(124, 119, 189, 0.2) 112.46%, rgba(124, 119, 189, 0.4) 113.28%);
-    border-radius: 40px;
-
-}
 
 .welcomeScreen {
     font-size: 30px;
     line-height: 37px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: column;
 
     letter-spacing: 0.08em;
@@ -72,7 +72,8 @@ body {
 
 .buttons,
 .login-welcome,
-.signup-welcome {
+.signup-welcome,
+.signup {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -86,19 +87,34 @@ body {
 
 
 .helloTittle {
-    
-    padding: 96px;
 
+
+    padding-top: 5.4rem;
+    padding-bottom: 1.6rem;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 34px;
     line-height: 37px;
-    /* identical to box height */
-
     letter-spacing: 0.08em;
 
     color: #000000;
+}
+
+.shareExp {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+
+    letter-spacing: 0.08em;
+
+    color: rgba(55, 71, 79, 0.8);
+
+    padding-bottom: 4.8rem;
+
 }
 
 .loginWelcome {
@@ -108,17 +124,19 @@ body {
 }
 
 .loginWelcome:hover {
-    fill: #cac7f3;
+    fill:#7C77BD;
+    stroke: #84848436;
+
 
 }
 
 .signupWelcome {
     fill: white;
     stroke: #49448C;
-    
+
 }
 
-.signupWelcome:hover {
+.signupWelcome:hover  {
     fill: #cac7f3;
     stroke: #FFFFFF;
 
@@ -128,9 +146,7 @@ body {
 
 /* <!-- LOGIN FORM --> */
 
-.pwd {
-    padding-left: 0.3rem;
-}
+
 
 .welcomeTitle {
     display: flex;
@@ -155,7 +171,7 @@ body {
     font-size: 20px;
     line-height: 27px;
     letter-spacing: 0.08em;
-    padding-block: 0.5rem;
+    padding-top: 1rem;
 
     color: rgba(55, 71, 79, 0.8);
 }
@@ -168,13 +184,14 @@ body {
 }
 
 .welcomeForm {
-margin-block: 2.5rem;
-padding-block:
+    margin-block: 0.6rem;
+
 }
 
 .login-password {
     padding-bottom: 3.2rem;
 }
+
 .login-email,
 input {
 
@@ -204,7 +221,7 @@ select:focus {
 
 .fPassoword {
     font-weight: bolder;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 17px;
 
     color: rgba(0, 0, 0, 0.5);
@@ -216,60 +233,153 @@ select:focus {
 .inputField input {
 
     padding: 2px 35px;
-    
-    margin-block:0.5rem;
+
+
+    border: 1px solid #7f7f811e;
     
 
+    margin-block: 0.4rem;
+    
 
 }
 
 .inputField {
-    
-    
-    text-align:left;
+
+
+    text-align: left;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
-    margin-block:1rem;
+    margin-block: 1.8rem;
 
 }
 
 
 
 .login-welcome {
-    padding-block: 1.6rem;
+    padding-block: 0.6rem;
 }
 
 .remember {
-    height: 1.5rem;
-    width: 1.5rem;
+
+
+    height: 0.9rem;
+    width: 0.9rem;
     background-color: #cac7f3;
-   
+
 
 }
 
 .rememberText {
-    text-align:right;
+    text-align: right;
+}
+
+
+
+.or {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
 }
 
 .socialMedia {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-around;
+    width: 200px;
+    margin-top: 3rem;
 
 }
 
-.or {
-    margin-block: 4rem;
+.google:hover,
+.linkedin:hover {
+
+    transform: scale(1.1);
+    transition: width 1s, height 1s, transform 1s;
+
 }
 
-.icones {
-    margin-bottom: 3rem;
+ul {
+    list-style: none;
+
+}
+
+ul:hover {
+    transform: scale(1.3);
+}
+
+
+/* REGISTRATION FORM */
+.hiTitle {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
+    justify-content: center;
+    flex-direction: column;
+    margin-block:3rem;
+}
+.account-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.08em;
+    
+
+    color: #000000;
+}
+
+.account-subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.08em;
+
+    color: rgba(55, 71, 79, 0.8);
+    margin-top: 0.7rem;
+}
+
+.inputFieldR {
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-block: 1rem;
+
+}
+
+.inputFieldR input {
+
+    padding: 2px 35px;
+
+
+    border: 1px solid #9d9d9f42;
+
+    margin-block: 0.4rem;
+    ;
+
+}
+
+.socialMediaR {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+} 
+
+.orR {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+ .signup:hover{
+    fill:#7C77BD;
+    stroke: #84848436;
+    
 }
