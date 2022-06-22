@@ -238,7 +238,7 @@ select:focus {
 
 
 .login-welcome {
-    padding-block: 1.6rem;
+    padding-block: 1rem;
 }
 
 .remember {
@@ -255,22 +255,38 @@ select:focus {
     text-align: right;
 }
 
-.socialMedia {
+.socialmedia {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+    width:200px;
+    margin-bottom: 2rem;
 
 }
 
 .or {
-    margin-block: 4rem;
+    margin-block: 2rem;
 }
 
 .icones {
-    margin-bottom: 3rem;
+    margin-bottom:2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
 }
+
+.icones:hover {
+    transform:scale(1.3);
+}
+
+ul {
+    list-style: none;
+
+  }
+  
+  ul:hover {
+    transform:scale(1.3);
+  }
