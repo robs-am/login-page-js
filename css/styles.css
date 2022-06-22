@@ -202,7 +202,7 @@ select:focus {
 
 .fPassoword {
     font-weight: bolder;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 17px;
 
     color: rgba(0, 0, 0, 0.5);
@@ -215,10 +215,10 @@ select:focus {
 
     padding: 2px 35px;
 
-    margin-block: 0.5rem;
+    
     border: 1px solid #9d9d9f42;
 
-
+    margin-block: 0.3rem;;
 
 }
 
@@ -231,19 +231,19 @@ select:focus {
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
-    margin-block: 1rem;
+    margin-block: 1.8rem;
 
 }
 
 
 
 .login-welcome {
-    padding-block: 1rem;
+    padding-block: 0.6rem;
 }
 
 .remember {
     
-    justify-items: ;
+    
     height: 0.9rem;
     width: 0.9rem;
     background-color: #cac7f3;
@@ -262,20 +262,20 @@ select:focus {
     flex-direction: row;
     
     width:200px;
-    margin-bottom: 2rem;
+    margin-block: 2rem;
 
 }
 
 .or {
-    margin-block: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 .icones {
-    margin-bottom:2rem;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    
 }
 
 .icones:hover {
