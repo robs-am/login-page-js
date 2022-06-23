@@ -183,7 +183,7 @@ body {
     flex-direction: column;
 }
 
-.welcomeForm {
+.signInForm {
     margin-block: 0.6rem;
 
 }
@@ -223,6 +223,7 @@ select:focus {
     font-weight: bolder;
     font-size: 14px;
     line-height: 17px;
+    padding-top: 0.6rem;
 
     color: rgba(0, 0, 0, 0.5);
 }
@@ -267,7 +268,8 @@ select:focus {
 
     height: 0.9rem;
     width: 0.9rem;
-    
+    align-items: center;
+    justify-content: center;
     filter:  Invert(100%) hue-rotate(210deg) brightness(1.7);
 
 
@@ -383,4 +385,8 @@ ul:hover {
     fill:#7C77BD;
     stroke: #84848436;
     
+}
+
+.logIntext {
+    text-align: center;
 }
