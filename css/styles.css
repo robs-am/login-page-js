@@ -49,7 +49,7 @@ body {
     justify-content: space-around;
     background: linear-gradient(180deg, #c1c1f407 -7.17%, rgba(251, 251, 253, 0.974843) 43.3%, rgba(124, 119, 189, 0.2) 112.46%, rgba(106, 97, 239, 0.269) 113.28%);
     border-radius: 30px;
-    
+
     border: 2px solid #cdcdcd46;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -59,7 +59,7 @@ body {
 .containerHello,
 .containerWelcome,
 .containerHi {
-  
+
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -74,11 +74,20 @@ body {
 .containerHello img {
     width: 70%;
 }
+
 .titulos {
     display: flex;
-    align-items: center;
+    align-items:center;
+    margin-bottom: 8rem;
     
     flex-direction: column;
+
+
+
+}
+
+.helloTittle {
+    margin-bottom: 1rem;
 }
 
 .buttons,
@@ -98,8 +107,8 @@ body {
 
 
 .helloTittle {
-   
-    
+
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -123,8 +132,12 @@ body {
 
     color: rgba(55, 71, 79, 0.8);
 
-    
 
+
+}
+
+.login-welcome, .signup-welcome {
+    padding-bottom: 2rem;
 }
 
 .loginWelcome {
@@ -134,7 +147,7 @@ body {
 }
 
 .loginWelcome:hover {
-    fill:#7C77BD;
+    fill: #7C77BD;
     stroke: #84848436;
 
 
@@ -146,7 +159,7 @@ body {
 
 }
 
-.signupWelcome:hover  {
+.signupWelcome:hover {
     fill: #cac7f3;
     stroke: #FFFFFF;
 
@@ -247,10 +260,10 @@ select:focus {
 
 
     border: 1px solid #7f7f811e;
-    
+
 
     margin-block: 0.4rem;
-    
+
 
 }
 
@@ -280,7 +293,7 @@ select:focus {
     width: 0.9rem;
     align-items: center;
     justify-content: center;
-    filter:  Invert(100%) hue-rotate(210deg) brightness(1.7);
+    filter: Invert(100%) hue-rotate(210deg) brightness(1.7);
 
 
 }
@@ -330,9 +343,10 @@ ul:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top:2rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
 .account-title {
     font-family: 'Montserrat';
     font-style: normal;
@@ -340,7 +354,7 @@ ul:hover {
     font-size: 28px;
     line-height: 37px;
     letter-spacing: 0.08em;
-    
+
 
     color: #000000;
 }
@@ -383,20 +397,20 @@ ul:hover {
 .socialMediaR {
     display: flex;
     align-items: center;
-    justify-content: space-evenly ;
-    width:200px;
+    justify-content: space-evenly;
+    width: 200px;
 
-} 
+}
 
 .orR {
     margin-top: 1rem;
     margin-bottom: 2.5rem;
 }
 
- .signup:hover{
-    fill:#7C77BD;
+.signup:hover {
+    fill: #7C77BD;
     stroke: #84848436;
-    
+
 }
 
 .logIntext {
