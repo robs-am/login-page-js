@@ -51,23 +51,29 @@ body {
     border-radius: 30px;
     width: 414px;
     height: 928px;
-    border: 1px solid #cdcdcd46;
+    border: 2px solid #cdcdcd46;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 
 
-.welcomeScreen {
-    font-size: 30px;
-    line-height: 37px;
+.containerHello,
+.containerWelcome,
+.containerHi {
+  
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-
+    width: 400px;
+    height: 844px;
     letter-spacing: 0.08em;
 
     color: #000000;
+}
+
+.containerHello img {
+    width: 70%;
 }
 
 .buttons,
@@ -87,14 +93,12 @@ body {
 
 
 .helloTittle {
-
-
-    padding-top: 5.4rem;
-    padding-bottom: 1.6rem;
+   
+    
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 34px;
+    font-size: 28px;
     line-height: 37px;
     letter-spacing: 0.08em;
 
@@ -105,15 +109,16 @@ body {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
     text-align: center;
+    max-width: 300px;
 
     letter-spacing: 0.08em;
 
     color: rgba(55, 71, 79, 0.8);
 
-    padding-bottom: 4.8rem;
+    
 
 }
 
@@ -157,7 +162,7 @@ body {
 
 .welcome-title {
     font-weight: 600;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 37px;
     letter-spacing: 0.08em;
 
@@ -253,7 +258,7 @@ select:focus {
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
-    margin-block: 1.8rem;
+    margin-block: 1rem;
 
 }
 
@@ -320,13 +325,14 @@ ul:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-block:3rem;
+    margin-top:2rem;
+    margin-bottom: 2rem;
 }
 .account-title {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 37px;
     letter-spacing: 0.08em;
     
@@ -338,7 +344,7 @@ ul:hover {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 27px;
     letter-spacing: 0.08em;
 
@@ -364,7 +370,7 @@ ul:hover {
 
     border: 1px solid #9d9d9f42;
 
-    margin-block: 0.4rem;
+    margin-block: 0.2rem;
     ;
 
 }
@@ -372,7 +378,8 @@ ul:hover {
 .socialMediaR {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly ;
+    width:200px;
 
 } 
 
@@ -389,4 +396,5 @@ ul:hover {
 
 .logIntext {
     text-align: center;
+    margin-bottom: 2rem;
 }
