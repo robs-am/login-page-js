@@ -1,0 +1,4 @@
+//sliding between sugn in form and sign-up form//
+
+const signUpbtn = document.querySelector(".signup-btn")
+const signInbtn = document.querySelector(".signin-btn")
