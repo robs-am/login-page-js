@@ -35,6 +35,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 
 
 
@@ -65,7 +66,7 @@ body {
     justify-content: space-evenly;
     flex-direction: column;
     width: 400px;
-    height: 844px;
+    height:100vh;
     letter-spacing: 0.08em;
 
     color: #000000;
@@ -87,6 +88,7 @@ body {
 }
 
 .helloTittle {
+    margin-top: 1.6rem;;
     margin-bottom: 1rem;
 }
 
@@ -98,12 +100,15 @@ body {
     align-items: center;
     flex-direction: column;
     border: none;
-    padding: 0.2rem;
+    padding: 0.3rem;
     background-color: transparent;
     cursor: pointer;
 
 }
 
+.buttons {
+    margin-top: 3rem;
+}
 
 
 .helloTittle {
@@ -131,14 +136,12 @@ body {
     letter-spacing: 0.08em;
 
     color: rgba(55, 71, 79, 0.8);
+    
 
 
 
 }
 
-.login-welcome, .signup-welcome {
-    padding-bottom: 2rem;
-}
 
 .loginWelcome {
     /* login btn */
