@@ -49,7 +49,7 @@
 
         <form class="signUpForm" action="#">
             <div class="inputFieldR">
-                <label for="text">Username:</label><br>
+                <label for="text" class="username">Username:</label><br>
                 <input type="text" id="username" class="username" placeholder="your username">
 
             </div>
@@ -59,13 +59,13 @@
 
             </div>
             <div class="inputFieldR">
-                <label class="pwd">Password:</label><br>
-                <input type="password" minlength="8" required id="login-password" class="login-password"
+                <label class="pwd1">Password:</label><br>
+                <input class="pwd1" type="password" minlength="8" required id="login-password" class="login-password"
                     placeholder="Must have at least 8 characters">
             </div>
             <div class="inputFieldR">
-                <label class="pwd">Confirm Password:</label><br>
-                <input type="password" minlength="8" required id="login-password" class="login-password"
+                <label class="pwd2">Confirm Password:</label><br>
+                <input class="pwd2" type="password" minlength="8" required id="login-password" class="login-password"
                     placeholder="Repeat Password">
             </div>
             <div class="inputFieldR">
@@ -94,7 +94,60 @@
         </form>
 
     </div>
-
+    <script>
+        ScrollReveal().reveal('.account-title', {
+            duration: 1500,
+            delay:500,
+            
+        });
+        ScrollReveal().reveal('.account-subtitle', {
+            duration: 1700,
+            delay:800,
+            
+            
+            
+        });
+        ScrollReveal().reveal('.email', {
+            duration: 1700,
+            delay:1000,
+            distance: '100px',
+            origin: 'left',
+            
+        });
+        ScrollReveal().reveal('.username', {
+            duration: 1700,
+            delay:1000,
+            distance: '100px',
+            origin: 'left',
+        });
+        ScrollReveal().reveal('.pwd1', {
+            duration: 1700,
+            delay:1000,
+            distance: '100px',
+            origin: 'left',
+        });
+        ScrollReveal().reveal('.pwd2', {
+            duration: 1700,
+            delay:1000,
+            distance: '100px',
+            origin: 'left',
+        });
+        ScrollReveal().reveal('.orR', {
+            duration: 1700,
+            delay:1000,
+            
+            
+        });
+        ScrollReveal().reveal('.socialMediaR', {
+            duration: 1700,
+            delay:1000,
+            origin: 'bottom',
+            distance: '50px',
+            
+            
+            
+        });
+    </script>
 
 
     <script src="/js/main.js"></script>
