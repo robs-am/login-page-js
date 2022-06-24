@@ -5,6 +5,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: rgba(55, 71, 79, 0.8);
+    
 
 
 }
@@ -52,7 +53,7 @@ body {
     border-radius: 30px;
 
     border: 2px solid #cdcdcd46;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 
@@ -113,31 +114,7 @@ select:focus {
 
 
 
-.inputField input {
 
-    padding: 2px 35px;
-
-
-    border: 1px solid #7f7f811e;
-
-
-    margin-block: 0.6rem;
-
-
-}
-
-.inputField {
-
-
-    text-align: left;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    margin-block: 1rem;
-
-}
 
 
 
@@ -166,16 +143,6 @@ select:focus {
 
 
 
-.socialMedia {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 200px;
-    
-    
-
-}
-
 
 
 .google:hover,
@@ -203,7 +170,7 @@ select:focus {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 37px;
     letter-spacing: 0.08em;
 
@@ -215,7 +182,7 @@ select:focus {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 27px;
     letter-spacing: 0.08em;
 
@@ -227,7 +194,7 @@ select:focus {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 18px;
     margin-bottom: 0.8rem;
     
@@ -241,7 +208,7 @@ select:focus {
 
     border: 1px solid #9d9d9f42;
 
-    margin-block: 0.5rem;
+    margin-block: 0.2rem;
     
 
 }
@@ -253,13 +220,18 @@ select:focus {
 .socialMediaR {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    width: 200px;
+    justify-content: space-between;
+    width: 100px;
     
 
 }
 
-
+.socialMediaR, .linkedin, .google {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+}
 
 .signup:hover {
     fill: #7C77BD;

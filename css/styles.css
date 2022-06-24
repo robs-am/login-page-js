@@ -89,7 +89,7 @@ body {
 }
 
 .helloTittle {
-    margin-top: 1.6rem;;
+    margin-top: 0.5rem;;
     margin-bottom: 1rem;
 }
 
@@ -393,12 +393,12 @@ select:focus {
     align-items: center;
     justify-content: space-evenly;
     width: 200px;
-    margin-bottom: 0.5rem;
+    
 
 }
 
 .orR {
-    margin-top: 1rem;
+    
     margin-bottom: 2.5rem;
 }
 
