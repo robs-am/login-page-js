@@ -41,8 +41,7 @@ body {
 
 }
 
-.containerHello,
-.containerWelcome,
+
 .containerHi {
 
     display: flex;
@@ -57,8 +56,7 @@ body {
 
 
 
-.containerHello,
-.containerWelcome,
+
 .containerHi {
 
     display: flex;
@@ -72,155 +70,16 @@ body {
     color: #000000;
 }
 
-.containerHello img {
-    width: 70%;
-}
-
-.titulos {
-    display: flex;
-    align-items:center;
-   
-  
-    flex-direction: column;
-
-
-
-}
-
-.helloTittle {
-    margin-top: 1.6rem;;
-    margin-bottom: 1rem;
-}
-
-.buttons,
-.login-welcome,
-.signup-welcome,
-.signup {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border: none;
-    padding: 0.3rem;
-    background-color: transparent;
-    cursor: pointer;
-
-}
-
-.buttons {
-    margin-top: 3rem;
-}
-
-
-.helloTittle {
-
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 37px;
-    letter-spacing: 0.08em;
-
-    color: #000000;
-}
-
-.shareExp {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    max-width: 300px;
-
-    letter-spacing: 0.08em;
-
-    color: rgba(55, 71, 79, 0.8);
-    
-
-
-
-}
-
-
-.loginWelcome {
-    /* login btn */
-    fill: #49448C;
-
-}
-
-.loginWelcome:hover {
-    fill: #7C77BD;
-    stroke: #84848436;
-
-
-}
-
-.signupWelcome {
-    fill: white;
-    stroke: #49448C;
-
-}
-
-.signupWelcome:hover {
-    fill: #cac7f3;
-    stroke: #FFFFFF;
-
-}
-
-
-
-/* <!-- LOGIN FORM --> */
-
-
-
-.welcomeTitle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top:2rem;
-    margin-bottom:1rem;
-    
-}
-
-.welcome-title {
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 37px;
-    letter-spacing: 0.08em;
-
-
-    color: #000000;
-
-}
-
-.welcome-subtitle {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
-    letter-spacing: 0.08em;
-    
-
-    color: rgba(55, 71, 79, 0.8);
-}
-
-
-
-.signInForm {
-    margin-bottom: 0.6rem;
-
-}
 
 .login-password {
-    padding-bottom: 3.2rem;
+    padding-bottom: 2rem;
 }
 
 .login-email,
 input {
 
     width: 320px;
-    height: 48px;
+    height: 40px;
     background: rgba(73, 68, 140, 0.1);
     border-radius: 30px;
     border: none;
@@ -336,6 +195,7 @@ select:focus {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-block:0.5rem;
    
     
 }
@@ -386,7 +246,10 @@ select:focus {
     
 
 }
-
+.signup {
+    border: none;
+    cursor: pointer;
+}
 .socialMediaR {
     display: flex;
     align-items: center;
@@ -397,8 +260,8 @@ select:focus {
 }
 
 .orR {
-    margin-top: 1rem;
-    margin-bottom: 2.5rem;
+   
+    margin-bottom: 1rem;
 }
 
 .signup:hover {
