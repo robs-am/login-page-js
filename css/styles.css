@@ -79,8 +79,8 @@ body {
 .titulos {
     display: flex;
     align-items:center;
-    margin-bottom: 8rem;
-    
+   
+  
     flex-direction: column;
 
 
@@ -179,6 +179,8 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top:2rem;
+    margin-bottom:1rem;
     
 }
 
