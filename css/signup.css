@@ -35,6 +35,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(to bottom, #c9d6ff, #e2e2e2);
     
 
 
@@ -71,9 +72,7 @@ body {
 }
 
 
-.login-password {
-    padding-bottom: 2rem;
-}
+
 
 .login-email,
 input {
@@ -195,7 +194,7 @@ select:focus {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-block:0.5rem;
+    
    
     
 }
@@ -249,20 +248,18 @@ select:focus {
 .signup {
     border: none;
     cursor: pointer;
+    background-color: transparent;
 }
 .socialMediaR {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 200px;
-    margin-bottom: 0.5rem;
+    
 
 }
 
-.orR {
-   
-    margin-bottom: 1rem;
-}
+
 
 .signup:hover {
     fill: #7C77BD;
@@ -272,5 +269,13 @@ select:focus {
 
 .logIntext {
     text-align: center;
-    margin-bottom: 3rem;
+    
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
 }

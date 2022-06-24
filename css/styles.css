@@ -35,6 +35,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(to bottom, #c9d6ff, #e2e2e2);
     
 
 
