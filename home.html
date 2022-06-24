@@ -9,7 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600&display=swap">
-
+    <script src="https://unpkg.com/scrollreveal"></script>
+   
+    <script>
+        ScrollReveal({
+            reset: true
+        });
+    </script>
     <title>Home</title>
 </head>
 
@@ -24,8 +30,26 @@
             <h2 class="shareExp">Share your life stories and journey experiences</h2>
         </div>
 
+        <script>
+            ScrollReveal().reveal('.helloTittle', {
+                duration: 1300,
+                
+                distance: '30px',
+                origin: 'top',
+            });
+            ScrollReveal().reveal('.shareExp', {
+                duration: 1300,
+                
+                distance: '30px',
+                origin: 'bottom',
+            });
+        </script>
+
+           
+        
+
         <div class="buttons">
-            <button class="login-welcome" onclick="login()">
+            <button  class="login-welcome" onclick="login()">
                 <svg width="261" height="48" viewBox="0 0 261 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect class="loginWelcome" width="261" height="48" rx="24" fill="#49448C" />
                     <path
@@ -48,6 +72,8 @@
 
     </div>
     <script src="/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+
 </body>
 
 </html>
