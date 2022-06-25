@@ -1,15 +1,20 @@
+
 function login() {
-    console.log('antes');
-    firebase.auth().signInWithEmailAndPassword("roberta.amaro89@gmail.com", "123456").then(response => {
-        console.log('success', response)
+    
+    firebase.auth().signInWithEmailAndPassword(
+        form.email().value, form.password().value
+    ).then(response => {
+        window.location.href = "home.html";
     }).catch(error => {
-        console.log('error', error)
+        alert(getErrorMessage(error));
     });
-    console.log('depois')
-    window.location.href = "login.html";
-
-
 }
+
+    
+    /* window.location.href = "login.html"; */
+
+
+
 
 function signup() {
     window.location.href = "signup.html"
