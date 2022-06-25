@@ -34,7 +34,7 @@ firebase.initializeApp(firebaseConfig);
 
 console.log('antes');
 firebase.auth().signInWithEmailAndPassword("roberta.amaro89@gmail.com", "123456").then(response => {
-    window.location.href = "login.html"
+    window.location.href = "home.html"
 }).catch(error => {
     console.log('error', error)
 });
