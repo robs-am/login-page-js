@@ -63,7 +63,7 @@ body {
 
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+   
     flex-direction: column;
     width: 400px;
     height:100vh;
@@ -156,10 +156,11 @@ select:focus {
 
 
 /* REGISTRATION FORM */
+
 .hiTitle {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
     
    
@@ -188,7 +189,12 @@ select:focus {
 
     color: rgba(55, 71, 79, 0.8);
 }
-
+.signUpForm {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom:2rem;
+}
 .inputFieldR {
     text-align: left;
     font-family: 'Montserrat';
@@ -220,8 +226,7 @@ select:focus {
 .socialMediaR {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100px;
+     
     
 
 }
@@ -249,5 +254,6 @@ select:focus {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top:1rem;
     
 }

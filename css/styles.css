@@ -58,9 +58,9 @@ body {
 
 
 
-.containerHello,
-.containerWelcome,
-.containerHi {
+.containerHello
+
+  {
 
     display: flex;
     align-items: center;
@@ -173,15 +173,26 @@ body {
 
 /* <!-- LOGIN FORM --> */
 
+.containerWelcome {
+    display: flex;
+    
+    align-items:center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 400px;
+    height:100vh;
+    letter-spacing: 0.08em;
 
+    color: #000000;
+}
 
 .welcomeTitle, .socialMedia {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column;
     
-    margin-block:0.3rem;
+   
     
 }
 
@@ -191,7 +202,7 @@ body {
     line-height: 37px;
     letter-spacing: 0.08em;
 
-
+    margin-bottom: 0.2rem;
     color: #000000;
 
 }
@@ -212,7 +223,7 @@ body {
 
 .signInForm {
     
-    margin-bottom: 0.6rem;
+    margin-top: 5rem;
 
 }
 .socialMedia img {
@@ -269,7 +280,7 @@ select:focus {
     font-weight: bolder;
     font-size: 14px;
     line-height: 17px;
-    padding-top: 0.6rem;
+    padding-block: 0.6rem;
 
     color: rgba(0, 0, 0, 0.5);
 }
@@ -329,7 +340,7 @@ select:focus {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-top: 1.2rem;
+    margin-top: 1.5rem;
 }
 
 
