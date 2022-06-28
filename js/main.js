@@ -2,13 +2,13 @@
 function login() {
     
      
-window.location.href = "login.html";
+window.location.href = "/pages/login.html";
 
 }
 
 
 function signup() {
-    window.location.href = "signup.html";
+    window.location.href = "/pages/signup.html";
 }
 
 
