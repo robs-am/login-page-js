@@ -186,10 +186,16 @@ body {
     color: #000000;
 }
 
+.intro {
+    display: flex;
+    align-items: center;
+
+    
+}
 .welcomeTitle, .socialMedia {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: column;
     
    
@@ -202,7 +208,7 @@ body {
     line-height: 37px;
     letter-spacing: 0.08em;
 
-    margin-bottom: 0.2rem;
+    margin-bottom: rem;
     color: #000000;
 
 }
@@ -223,7 +229,7 @@ body {
 
 .signInForm {
     
-    margin-top: 5rem;
+    margin-top: 2rem;
 
 }
 .socialMedia img {
