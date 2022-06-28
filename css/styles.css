@@ -175,13 +175,13 @@ body {
 
 
 
-.welcomeTitle {
+.welcomeTitle, .socialMedia {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
     
-    margin-block:1.5rem;
+    margin-block:0.3rem;
     
 }
 
@@ -206,13 +206,34 @@ body {
     color: rgba(55, 71, 79, 0.8);
 }
 
-
+.linkedin, .google {
+    margin-top: 0.1rem;
+}
 
 .signInForm {
+    
     margin-bottom: 0.6rem;
 
 }
+.socialMedia img {
+    width: 75%;
+    
+    
+}
 
+.socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top:1.5rem;
+    margin-bottom: 0.3rem;
+    
+    width: 150px;
+    
+    
+
+}
 .login-password {
     padding-bottom: 3.2rem;
 }
@@ -312,22 +333,7 @@ select:focus {
 }
 
 
-.socialMedia img {
-    width: 75%;
-    
-    
-}
 
-.socialMedia {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
-    width: 150px;
-    
-    
-
-}
 
 
 
