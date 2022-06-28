@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: rgba(55, 71, 79, 0.8);
+
+
+}
+
+a {
+    color: #49448c;
+}
+
+a:hover {
+    color: #161257;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #c9d6ff, #e2e2e2);
+    
+
+
+
+}
+
+
+.containerWelcome
+ {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(180deg, #c1c1f407 -7.17%, rgba(251, 251, 253, 0.974843) 43.3%, rgba(124, 119, 189, 0.2) 112.46%, rgba(106, 97, 239, 0.269) 113.28%);
+    border-radius: 30px;
+
+    border: 2px solid #cdcdcd46;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* <!-- LOGIN FORM --> */
+
+.containerWelcome {
+    display: flex;
+    
+    align-items:center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 400px;
+    height:100vh;
+    letter-spacing: 0.08em;
+
+    color: #000000;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+
+    
+}
+.welcomeTitle, .socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+   
+    
+}
+
+.welcome-title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 37px;
+    letter-spacing: 0.08em;
+
+    margin-bottom: rem;
+    color: #000000;
+
+}
+
+.welcome-subtitle {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.08em;
+    
+
+    color: rgba(55, 71, 79, 0.8);
+}
+
+.linkedin, .google {
+    margin-top: 0.1rem;
+}
+
+.signInForm {
+    
+    margin-top: 2rem;
+
+}
+.socialMedia img {
+    width: 75%;
+    
+    
+}
+
+.socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top:1.5rem;
+    margin-bottom: 0.3rem;
+    
+    width: 150px;
+    
+    
+
+}
+.login-password {
+    padding-bottom: 3.2rem;
+}
+
+.login-email,
+input {
+
+    width: 320px;
+    height: 48px;
+    background: rgba(73, 68, 140, 0.1);
+    border-radius: 30px;
+    border: none;
+
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+
+}
+
+::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+}
+
+.fPassoword {
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 17px;
+    padding-block: 0.6rem;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.inputField input {
+
+    padding: 2px 35px;
+
+
+    border: 1px solid #7f7f811e;
+
+
+    margin-block: 0.6rem;
+
+
+}
+
+.inputField {
+
+
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 0.6rem;
+    
+
+}
+
+.signInForm {
+    margin-top: 0.5rem;
+}
+
+.login-welcome {
+    padding-bottom: 0.5rem;
+    border: none;
+    background-color: transparent;
+}
+
+.remember {
+
+
+    height: 0.9rem;
+    width: 0.9rem;
+    align-items: center;
+    justify-content: center;
+    filter: Invert(100%) hue-rotate(210deg) brightness(1.7);
+
+
+}
+
+.buttonsSignin {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.5rem;
+    border: none;
+}
+
+
+
+
+
+
+.google:hover,
+.linkedin:hover {
+
+    transform: scale(1.1);
+    transition: width 1s, height 1s, transform 1s;
+
+}
+
+
+
