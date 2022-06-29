@@ -99,7 +99,7 @@ body {
 }
 
 .welcome-subtitle {
-    margin-bottom:1.5rem;
+    margin-bottom:0.5rem;
     font-weight: 600;
     font-size: 16px;
     line-height: 27px;
@@ -172,9 +172,14 @@ select:focus {
     font-weight: bolder;
     font-size: 14px;
     line-height: 17px;
-    padding-block: 0.6rem;
+    padding-block: 0.8rem;
+    padding-bottom:1rem;
 
     color: rgba(0, 0, 0, 0.5);
+}
+
+.fPassoword:hover {
+    color:#49448c;
 }
 
 
@@ -243,7 +248,7 @@ select:focus {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 1.8rem;
     border: none;
 }
 

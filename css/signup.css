@@ -18,6 +18,10 @@ a:hover {
     color: #161257;
 }
 
+.signIn-btn:hover {
+    color: #161257;
+}
+
 p {
     font-family: 'Montserrat';
     font-style: normal;
