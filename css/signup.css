@@ -53,7 +53,7 @@ body {
 
     border-radius: 30px;
 
-    border: 2px solid #cdcdcd46;
+    border: 2px solid #faf4f427;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
@@ -183,7 +183,7 @@ select:focus {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 26px;
     line-height: 37px;
     letter-spacing: 0.08em;
 
@@ -275,4 +275,8 @@ select:focus {
 
 .logIntext {
 margin-top: 0.3rem;
+}
+
+.signIn-btn:hover {
+    color:#49448c;
 }

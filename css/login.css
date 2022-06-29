@@ -99,6 +99,7 @@ body {
 }
 
 .welcome-subtitle {
+    margin-bottom:1.5rem;
     font-weight: 600;
     font-size: 16px;
     line-height: 27px;
@@ -207,13 +208,22 @@ select:focus {
 }
 
 .signInForm {
-    margin-top: 0.5rem;
+    margin-top: 1.2rem;
 }
 
 .login-welcome {
     padding-bottom: 0.5rem;
     border: none;
     background-color: transparent;
+    
+}
+
+.login-welcome:hover {
+    fill: #7C77BD;
+    stroke: #84848436;
+    cursor: pointer;
+
+
 }
 
 .remember {
@@ -233,7 +243,7 @@ select:focus {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-top: 1.5rem;
+    margin-top: 3rem;
     border: none;
 }
 
@@ -245,10 +255,12 @@ select:focus {
 .google:hover,
 .linkedin:hover {
 
-    transform: scale(1.1);
+    
     transition: width 1s, height 1s, transform 1s;
 
 }
 
-
+.signup-btn:hover {
+    color:#49448c;
+}
 
