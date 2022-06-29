@@ -137,6 +137,14 @@ body {
     
 
 }
+
+.google:hover,
+.linkedin:hover {
+
+    transform: scale(1.1);
+    transition: width 1s, height 1s, transform 1s;
+
+}
 .login-password {
     padding-bottom: 3.2rem;
 }
@@ -220,13 +228,18 @@ select:focus {
     padding-bottom: 0.5rem;
     border: none;
     background-color: transparent;
+    cursor: pointer;
     
 }
 
-.login-welcome:hover {
+.login-welcome {
+    /* login btn */
+    fill: #49448C;
+
+}
+.loginWelcome:hover {
     fill: #7C77BD;
     stroke: #84848436;
-    cursor: pointer;
 
 
 }
