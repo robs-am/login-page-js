@@ -7,6 +7,7 @@
  <a href="#about">About</a> •
  <a href="#references">References</a> • 
   
+  
  
 </p>
 
@@ -17,16 +18,9 @@
 
 <h2 align="center">About</h2>
 
-<p align="center">This was my first attempt learning JavaScript while doing a project. I was able to learn about:</p>
+<p align="center">A 3 page project with Home, Login and Register form built Figma, HTML5, CSS3 and JavaScript</p>
 
- <p align="center"><strong>CSS:</strong></p>
-➡️ Variety of styles of the text shadow attribute to do a  slightly bevel effect on the temperature.<br>
-➡️ Use of source landscape images of Unsplash website to generate random background images as you reload the page.<br><br>
 
- <p align="center"><strong>JavaScript:</strong></p>
-➡️ Use of the fetch() method to request to the server and load the weather information in the webpage. It was used an API that returned data in the JSON data format.<br>
-➡️ Implementing the Math.trunc() method to return the integer part of numbers, in that case, of the Celsius temperature.<br>
-➡️ Use of the API from OpenWeathermap.com 
 
 
           
@@ -39,5 +33,5 @@
 
 HTML5, CSS3, JavaScript<br>
 Editor: https://code.visualstudio.com/<br>
-3D icon: https://3dicons.co/<br>
-Guideline: https://w3collective.com/random-password-generator-javascript/
+ilustrations: https://storyset.com<br>
+UI: https://figma.com/
