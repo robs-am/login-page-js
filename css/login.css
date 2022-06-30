@@ -65,7 +65,7 @@ body {
     justify-content: space-around;
     flex-direction: column;
     width: 400px;
-    height:100vh;
+    min-height:100vh;
     letter-spacing: 0.08em;
 
     color: #000000;
