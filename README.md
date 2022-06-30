@@ -19,6 +19,8 @@
 <h2 align="center">About</h2>
 
 <p align="center">A 3 page project with Home, Login and Register form built Figma, HTML5, CSS3 and JavaScript</p>
+<p align="center">Figma was used to build all the UI. For the page transition I used the 'onclick' function and for the Home animation the ScrollReveal library.</p>
+
 
 
 
@@ -29,9 +31,10 @@
 
 <h2 align="center">References</h2>
 
-<strong>Website:</strong><br><br>
+<strong>Website: https://login-page-js.vercel.app</strong><br><br>
 
 HTML5, CSS3, JavaScript<br>
 Editor: https://code.visualstudio.com/<br>
-ilustrations: https://storyset.com<br>
-UI: https://figma.com/
+Ilustration: https://storyset.com<br>
+UI: https://figma.com/<br>
+Scrollreveal:https://scrollrevealjs.org/
