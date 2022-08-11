@@ -18,7 +18,7 @@
 
 <h2 align="center">About</h2>
 
-<p align="center">A 3 page project with Home, Login and Register form built Figma, HTML5, CSS3 and JavaScript</p>
+<p align="center">The layout was designed on Figma and then it was used  HTML5, CSS3 and JavaScript</p>
 <p align="center">Figma was used to build all the UI. For the page transition I used the 'onclick' function and for the Home animation the ScrollReveal library.</p>
 
 
@@ -29,7 +29,7 @@
 
 
 
-<h2 align="center">References</h2>
+<p align="center">References</p>
 
 <strong>Website: https://login-page-js.vercel.app</strong><br><br>
 
