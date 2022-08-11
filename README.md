@@ -18,8 +18,8 @@
 
 <h2 align="center">About</h2>
 
-<p align="center">The layout was designed on Figma and then it was used  HTML5, CSS3 and JavaScript</p>
-<p align="center">Figma was used to build all the UI. For the page transition I used the 'onclick' function and for the Home animation the ScrollReveal library.</p>
+<p align="center">A Login and Registration Form with Home Screen. It was used  HTML5, CSS3 and JavaScript</p>
+<p align="center">Figma was used to build all the UI. For the page transition Ii was used the 'onclick' function and for the Home animation the ScrollReveal library.</p>
 
 
 
